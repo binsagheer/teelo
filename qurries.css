@@ -1,0 +1,981 @@
+/* <------------ All breakpoints and media queries ---->>>> */
+
+
+.container {
+  max-width: 1200px;
+  padding: 0 120px;
+
+}
+
+@media (min-width:1550px) {
+  .hero-section {
+    position: relative;
+    min-height: 70rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url("images/CART\ REMOVED\ 1.png") no-repeat center center/cover !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+}
+
+
+/* <------------ Large Desktops: 1024px to 1319px  ---->>>> */
+
+
+@media (max-width: 1319px) and (min-width: 1200px) {
+  .container {
+    padding: 0 110px; /* Adjusted padding for smaller desktop screens */
+  }
+  .navbar-brand img {
+    width: 25.2rem !important;
+  }
+  .hero-img {
+    width: 94% !important;
+    object-fit: cover !important;
+    position: relative !important;
+    top: 5.4rem !important;
+    left: 2rem !important;
+  }
+
+  .hero-discription {
+    margin-top: 1.6rem !important;
+  }
+  .hero-left-body {
+    text-align: left !important;
+    color: var(--white) !important;
+    position: relative !important;
+    top: 5rem !important;
+  }
+  #hero-conatiner-id {
+
+    position: relative !important;
+    top: -34px !important;
+}
+  .brand-card {
+    padding: 10px 30px !important;
+  }
+  .brand-logo {
+    width: 12rem !important;
+  }
+  .inner-about-details {
+    padding-inline: 10rem !important;
+  }
+  .brand-card-black-brand1,
+  .brand-card-black-brand2,
+  .brand-card-black-brand3 {
+    padding-inline: 20px 30px !important;
+  }
+  .service-box p {
+    line-height: 2.4rem !important;
+  }
+  .financing-right img {
+    max-width: 84%;
+  }
+
+  /* .brand-card-black-brand3 p {
+    column-gap: 0px !important;
+  } */
+
+  .brand-card-black-brand1 p,
+  .brand-card-black-brand2 p,
+  .brand-card-black-brand3 p {
+    /* column-gap: 6px !important; */
+    align-items: flex-start;
+  }
+
+  .brand-card-black-brand1,
+  .brand-card-black-brand2,
+  .brand-card-black-brand3 {
+    padding: 10px 22px !important;
+  }
+  .card-hero-img img {
+    width: 68% !important;
+  }
+  .service-box {
+    padding: 2rem 3rem !important;
+  }
+}
+
+@media (min-width:1120px) {
+  .offer-start {
+    font-family: "inter-800";
+    font-size: clamp(2.5rem, 1.44vw, 3.2rem) !important;
+    font-weight: 800;
+    line-height: 1.8rem;
+    text-align: center;
+    color: var(--balck);
+}
+
+}
+
+
+
+/* <------------ Medium Screens: 992px to 1023px---->>>> */
+
+
+@media (max-width: 1200px) and (min-width: 1033px) {
+  .container {
+    padding: 0 80px; /* Fine-tuned for medium-sized devices */
+    max-width: 1033px; 
+  }
+  .navbar-brand img {
+    width: 25.2rem !important;
+  }
+  .hero-left-side {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+   
+}
+.hero-discription{max-width: 30rem !important;}
+  .brand-card-black-brand1 p,
+  .brand-card-black-brand2 p,
+  .brand-card-black-brand3 p {
+    column-gap: 6px !important;
+    align-items: flex-start;
+  }
+  .service-box{height: 525px !important;}
+  .service-box p{height: 320px !important;}
+
+  .brand-card-black-brand1,
+  .brand-card-black-brand2,
+  .brand-card-black-brand3 {
+    padding: 10px 22px !important;
+  }
+  .card-hero-img img {
+    width: 68% !important;
+  }
+
+  .hero-btns {
+    margin-top: 4.6rem !important;
+  }
+  .brand-card {
+    padding: 10px 40px !important;
+  }
+  .hero-img {
+    left: 54px !important;
+    position: relative !important;
+    width: 100% !important;
+    object-fit: cover;
+ 
+  }
+  .service-box {
+    padding: 2rem !important;
+  }
+  .financing-right img {
+    max-width: 96% !important;
+  }
+  .owl-carousel .owl-stage-outer {
+    margin-top: -90px !important;
+    padding-block-start: 170px;
+  }
+}
+@media (max-width:1200px) {
+  body > footer > div.footer-body.container > div > div.footer-section.timing-section.col-sm-4.col-md-4 > h5{margin-right: auto !important;}
+  
+}
+
+
+        /* FOR SCREEN SIZE 1033PX TO 992PX */
+
+
+@media (max-width:1033px) and (min-width:992px){
+  .container {
+    padding: 0 60px; /* Fine-tuned for medium-sized devices */
+    max-width: 992px;
+  }
+  #hero-row-id{position: relative;top: 40px !important;}
+  .hero-line{line-height: 4.8rem !important;}
+  .hero-discription {max-width: 30rem !important;margin-top: 2rem !important;}
+  .hero-btns{margin-top: 4.6rem !important;}
+  .brand-card-black-brand1 p, .brand-card-black-brand2 p, .brand-card-black-brand3 p{column-gap: 0px !important;align-items: flex-start !important;
+    column-gap: 0px !important;
+    margin-top: 1rem !important;}
+    .offer-card{row-gap: 0.2rem !important;}
+    .service-box p {
+      line-height: 2.96rem !important; 
+      height: 210px !important;
+  }
+  
+}
+
+
+        /* FOR BELOW 992PX */
+
+
+@media (max-width: 992px)  {
+ 
+  .container {
+    padding: 0 40px !important; /* Fine-tuned for medium-sized devices */
+    max-width: 767.99px !important; 
+  }
+  .brand-card {
+    height: 126px !important;
+    padding: 10px 20px !important;
+  }
+
+  .inner-about-details {
+    padding: 50px 70px !important;
+  }
+  .owl-carousel .owl-stage-outer {
+    margin-top: -0px;
+    padding-block-start: 170px;
+  }
+  .hero-line{line-height: 4.8rem !important;}
+  .hero-discription {max-width: 30rem !important;margin-top: 2rem !important;}
+  .hero-btns{margin-top: 4.6rem !important;}
+  .offer-card{row-gap: 0.2rem !important;}
+  .brand-card-black-brand1, .brand-card-black-brand2, .brand-card-black-brand3{height: 100px !important;}
+ 
+
+}
+/* Tablets: 768px to 991px */
+@media (max-width: 991px) and (min-width: 768px) {
+
+
+  .brand-card-black-brand1,
+  .brand-card-black-brand2,
+  .brand-card-black-brand3 {
+    padding: 10px 12px !important;
+  }
+ 
+  .offer-card {
+    padding: 20px 0px !important;
+  }
+  .available {
+    font-size: clamp(1rem, 1.4vw, 1.6rem) !important;
+    column-gap: 1.2rem !important;
+    justify-content: center !important;
+  }
+  .hero-btns {
+    margin-top: 2.2rem !important;
+  }
+  .hero-section {
+
+    min-height: 60rem !important;
+
+  }
+  #hero-conatiner-id {
+ 
+    position: relative !important;
+    top: 20px !important;
+  }
+  .hero-img {
+    width: 123% !important;
+    object-fit: cover;
+}
+  .hero-line {
+    font-family: "inter-800";
+    font-weight: 800;
+    font-size: clamp(3.8rem, 3vw, 5.6rem) !important;
+    line-height: 3.8rem;
+    text-align: left;
+  }
+  .left-btn {
+    width: 12rem !important;
+    padding: 0.8rem !important;
+  }
+  .right-btn {
+    width: 12rem !important;
+    padding: 0.8rem !important;
+  }
+
+  .hero-discription {
+    font-size: clamp(1.2rem, 1.6vw, 1.6rem) !important;
+    line-height: 2rem !important;
+  }
+  .financing-content {
+    padding: 40px 20px !important;
+  }
+  .financing-left p {
+    line-height: 2.6rem !important;
+  }
+  .financing-right img {
+    max-width: 84% !important;
+  }
+  .service-box p{height: 300px !important;}
+  .service-box {row-gap: 32px !important;}
+
+  #billing-inner-section {
+    padding: 6rem 3rem !important;
+  }
+  .calcultor-content-body {
+    row-gap: 34px;
+  }
+  .calcultor-content-body .left-btn {
+    width: 18rem !important;
+  }
+  .gallery-title {
+    font-family: "pop-400";
+    font-size: clamp(2.2rem, 5vw, 4.4rem);
+    font-weight: 500;
+    line-height: 7rem;
+    color: var(--white);
+    text-align: left;
+    padding-inline-start: 34px !important;
+    margin-block: 50px;
+    color: var(--white);
+}
+.brand-card-black-brand1 p, .brand-card-black-brand2 p, .brand-card-black-brand3 p{align-items: flex-start !important;}
+ .brand-card-black-brand3 p  i {margin-top: 6px !important;}
+ .brand-card-black-brand1 p i {margin-top: 6px !important;}
+ .brand-card-black-brand2 p i {margin-top: 6px !important;}
+ .offer-start{font-size: clamp(1.5rem, 2vw, 3.2rem) !important;}
+ .testimonal-title {
+  font-size: clamp(2.3rem, 9vw, 4rem) !important;
+  line-height: 5.9rem !important;
+}
+#services-offers > div.services.col-md-4.offer-card-1 > div > div.service-log-div img{height: 120%;width: 100% !important;}
+#services-offers > div.services.col-md-4.offer-card-2 > div > div.service-log-div > img{height: 94% !important;}
+#services-offers > div.services.col-md-4.offer-card-3 > div > div.service-log-div > img{height: 76% !important;}
+/*  */
+
+.brand-card-black-brand1 .brand-logo {
+height: 87% !important;
+width: 100%;
+object-fit: contain;
+margin-bottom: 10px;
+}
+.brand-card-black-brand2 .brand-logo {
+height:87% !important;
+width: 108% !important;
+object-fit: contain;
+margin-bottom: 10px;
+}
+.brand-card-black-brand3 .brand-logo {
+height: 122% !important;
+width: 100%;
+object-fit: contain;
+margin-bottom: 10px;
+}
+}
+
+
+          /* -----------             ------
+===========   SCREEN SIZE BELOW 768PX        ====
+-----------             ------- */
+/*  */
+
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 24px !important; /* Fine-tuned for medium-sized devices */
+    max-width: 574.99px !important; 
+  }
+  .navbar-brand img {
+    width: 21.2rem !important;
+  }
+  .col-sm-12,
+  .col-md-4,
+  .col-md-6 {
+    display: flex !important;
+    justify-content: center !important;
+  }
+  .row{row-gap: 3rem !important;}
+  .about-us-details-img {
+    width: 100% !important;
+  }
+  .offer-details-tag {
+    padding-block: 0px !important;
+  }
+
+  .offer-content-tag {
+    font-size: 1.8rem !important;
+    line-height: 4.4rem !important;
+  }
+  .card-hero-img img {
+    width: 90% !important;
+  }
+  /* .our-service-tag {padding-inline-start: 4rem !important;} */
+
+  .service-log-div{
+    height: 3rem;
+  }
+  .service-log-div img{width: 100% !important;object-fit: contain !important;height: 100% !important;}
+  .offer-start {
+    font-size: clamp(2.5rem, 1vw, 3.2rem) !important;
+  }
+  .brand-card-black-brand1,
+  .brand-card-black-brand2,
+  .brand-card-black-brand3 {
+    padding: 1rem 1.6rem !important;
+  }
+  .brand-card-black-brand1,
+  .brand-card-black-brand2,
+  /* .brand-card-black-brand3 {
+    height: 13rem !important;
+    row-gap: 2rem !important;
+  } */
+  .offer-card {
+    padding: 5px 16px !important;
+  }
+  .brand-visit {
+
+    align-items: center;
+    gap: 25px !important;
+    position: relative;
+    top: 0px !important;
+  
+    margin-block: 60px !important;
+  }
+  .brand-card {
+    display: flex !important;
+
+    column-gap: 20px !important;
+    justify-content: center !important;
+    align-items: flex-start !important;
+  }
+  #about-inner > div > a.brand-card.brand3 > p {margin: 0;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    text-align: left;
+    column-gap: 21px !important;}
+  .hero-section {
+    padding-block: 112px 70px !important;
+  }
+  .hero-line {
+    line-height: 6.2rem !important;
+    font-size: clamp(2.8rem, 6vw, 5.6rem) !important;
+}
+  .hero-discription {font-size: clamp(1.2rem, 3.4vw, 1.6rem) !important;margin-top: 3rem !important;}
+
+  .hero-btns {
+    margin-top: 4rem !important;
+    
+  }
+
+  .hero-left-side {
+    padding: 30px !important;
+  }
+  .left-btn {
+    width: 14rem !important;
+    padding: 0.8rem !important;
+  }
+  .right-btn {
+    width: 14rem !important;
+    padding: 0.8rem !important;
+  }
+  .hero-left-side {
+    align-items: self-start;
+    padding-inline-start: 100px !important;
+}
+.hero-img {width: 70% !important;}
+.detail-description {line-height: 2.6rem !important;}
+#testimonal-id {padding: 0px !important;
+}
+  #financing-content-row {
+    flex-direction: column-reverse !important;
+  }
+  .financing-content {
+    padding: 4rem 3rem !important;
+  }
+  .financing-left {
+    padding-block-start: 2rem !important;
+  }
+  .more-about-financing {
+    margin-top: 3rem !important;
+    flex-direction: column-reverse !important;
+  }
+  .inner-about-details {
+    padding: 50px 35px !important;
+  }
+
+  .more-about-financing .left-btn {
+    width: 70% !important;
+    display: block !important;
+    margin: auto !important;
+  }
+  .financing-section-tag {
+    padding-inline: 6rem !important;
+  }
+  .financing-right img {
+    width: 68% !important;
+  }
+  #billing-inner-section {
+    padding: 30px 20px !important;
+  }
+  .calcultor-content .left-btn {
+    width: 70% !important;
+    display: block !important;
+    margin: auto !important;
+  }
+  #calcultor-row {
+    row-gap: 7rem !important;
+  }
+  .calcultor-content-body {
+    row-gap: 2.2rem !important;
+  }
+  .calcultor-content {
+    display: block !important;
+  }
+  .google-reviews {
+    padding-block: 4rem 1rem !important;
+  }
+
+  .footer .footer-logo {
+    padding-left: 10rem !important;
+    width: 100% !important;
+    max-width: 70% !important;
+  }
+  .timing-section{display: none !important;}
+  .footer-section{justify-content:center  !important;align-items: flex-end !important;}
+
+  body > footer > div > div > div:nth-child(2) > div {
+    position: relative;
+    left: -4rem !important;
+  }
+}
+
+/* Mobile Landscape: 576px to 767px */
+@media (max-width: 767px) and (min-width: 576px) {
+
+  .offer-details-title {
+    font-size: clamp(3.8rem, 5vw, 6rem) !important;
+    font-weight: 500 !important;
+    line-height: 5rem !important;
+  }
+  .testimonial-card {
+    width: 60% !important;
+    height: 300px !important;
+  }
+  #about-inner > div > a.brand-card.brand3{align-items: center !important;}
+  .gallery-title {
+    font-family: "pop-400";
+    font-size: clamp(3.2rem, 3vw, 4.4rem);
+    font-weight: 500;
+    line-height: 7rem;
+    color: var(--white);
+    text-align: left;
+    padding-inline-start: 24px;
+    margin-block: 50px;
+    color: var(--white);
+}
+.testimonal-title {
+  font-family: "inter-500";
+  font-size: clamp(2.3rem, 7vw, 4rem) !important;
+  
+  line-height: 5.9rem !important;
+
+}
+.f-logo {
+  width: 100%;
+  max-width: 28rem !important;
+  position: relative;
+  left: 6rem;
+}
+}
+
+
+/*  */
+
+@media (min-width:575px) {
+  
+}
+.owl-carousel {padding-inline-end: 5.2rem !important;}
+
+
+
+/* Mobile Portrait: Less than 576px */
+@media 
+(max-width: 575px) {
+  .container {
+    padding: 0 18px !important; /* Fine-tuned for medium-sized devices */
+    max-width: 474.99px !important; 
+  }
+
+  .hero-section {min-height: 40rem !important;}
+  .hero-img{width: 62% !important;}
+  .brand-card-black-brand1,
+  .brand-card-black-brand2,
+  .brand-card-black-brand3 {
+    width: 80% !important;
+  }
+  .brand-card {
+    padding-inline: 30px !important ;
+    padding-block: 6rem !important;
+  }
+  .navbar {
+    padding-inline: 2rem !important;
+  }
+  .navbar-brand img {
+    width: 17.2rem !important;
+  }
+
+  .hero-line {
+    font-size: clamp(2.7rem, 6.4vw, 5.6rem) !important;
+    line-height: 4.8rem !important;
+  }
+  .left-btn {
+    width: 11rem !important;
+    padding: 0.8rem !important;
+  }
+  .right-btn {
+    width: 11rem !important;
+    padding: 0.8rem !important;
+  }
+  .inner-about-details {
+    padding: 50px 20px !important;
+  }
+  .offer-section-content {
+    padding: 40px 5px !important;
+  }
+
+  #about-inner > div > a.brand-card.brand1 > p{column-gap: 2.1rem !important;}
+  #about-inner > div > a.brand-card.brand2 > p{column-gap: 2.1rem !important;}
+  #about-inner{top: 0 !important;}
+  .brand-visit{margin-block: 2.4rem !important;}
+  .about-details-tag {
+ 
+    padding-top: 1.6rem !important;
+  }
+
+  .inner-about-details {
+    padding: 50px 26px !important;
+  }
+
+  .our-service-tag {
+    text-align: center !important;
+    margin-inline-start: 0px !important;
+    line-height: 4.2rem !important;
+  }
+  .our-service-title {
+    margin-inline-start: 0px !important;
+    font-size: 3rem !important;
+    text-align: center !important;
+  }
+  .our-services {
+    padding: 0px !important;
+  }
+  .gallery-reel-tag {
+    font-size: clamp(3.6rem, 7vw, 8.4rem) !important;
+    line-height: 3.1rem !important;
+  }
+  #gallery-reel {
+    padding-block: 1.8rem !important;
+  }
+  .financing-section-title {
+    line-height: 5rem !important;
+  }
+  .financing-section-tag {
+    padding-inline: 1.3rem !important;
+    line-height: 2.6rem !important;
+  }
+  .financing-left p {
+    line-height: 2.6rem !important;
+  }
+  .financing-right img {
+    width: 80% !important;
+  }
+  .financing-content {
+    padding: 4rem 2rem !important;
+  }
+  .google-bedge img {
+    max-width: 108px !important;
+}
+
+  #billing-inner-section {
+    padding: 30px 20px !important;
+  }
+  .testimonial-card {
+    width: 50% !important;
+  }
+  .footer-section{justify-content:center  !important;align-items: center !important;}
+  .f-logo {width: 24rem !important;}
+  .gallery-title{font-size: clamp(2.8rem, 3vw, 4.4rem) !important;padding-left: 34px !important;}
+
+  .footer .footer-logo {
+    padding-left: 10rem !important;
+    width: 100% !important;
+    max-width: 80% !important;
+  }
+  .service-box{height: 438px !important;}
+
+  .service-box p {line-height: 2.6rem !important;}
+  .financing-section-tag {line-height: 2.6rem !important;}
+  .billing-section{padding-block: 0px !important;}
+  .gallery-title{margin-block: 0px !important;}
+  .footer-section-body{row-gap:2.8rem !important;}
+  .footer-logo-part{left: -41px !important;}
+  .f-logo {width: 22rem !important;}
+  .testimonal-title {
+    font-size: clamp(2.3rem, 7vw, 4rem);
+    line-height: 5.9rem !important;
+}
+.carasoule-section{padding-inline: 0px !important;}
+.no-js .owl-carousel, .owl-carousel.owl-loaded {
+  padding-block-end: 5rem !important;
+  display: block;
+}
+.offer-details-title {
+  font-size: clamp(2.4rem, 8vw, 6rem) !important;
+  line-height: 4rem !important;
+}
+.financing-section{padding-block-start: 2rem !important;}
+
+
+}
+
+
+          /* -----------             ------
+===========   FROM 475 TO 370          ====
+-----------             ------- */
+/*  */
+
+
+
+@media (max-width: 475px) and (min-width:370px) {
+ 
+  .container {
+    padding: 0 10px !important; /* Fine-tuned for medium-sized devices */
+    max-width: 369.99px !important; 
+  }
+  .hero-img{width: 90% !important;}
+  .about-details-title {
+    line-height: 3.5rem !important;
+  }
+  .hero-left-side {padding-inline-start: 30px !important;}
+  .hero-line {
+    font-size: clamp(2.7rem, 4.4vw, 5.6rem) !important;
+    line-height: 4.8rem !important;
+}
+.hero-discription{margin-top: 1rem !important;}
+.hero-btns {
+  margin-top: 2rem !important;
+}
+.detail-description{text-align: justify !important;}
+
+  .about-details-tag {
+    line-height: 3.5rem !important;
+  }
+  .detail-description {
+    line-height: 2.6rem !important;
+  }
+  .gallery-section{padding-top: 6rem !important;}
+  
+  .offer-details-title {
+    font-size: clamp(2.4rem, 8vw, 6rem) !important;
+    line-height: 4rem !important;
+  }
+  .offer-details-tag {
+    font-size: clamp(1.6rem, 4vw, 4rem) !important;
+    padding-block: 2rem !important;
+    line-height: 4rem !important;
+  }
+  h2.offer-content-heading {
+    font-size: clamp(2.4rem, 5vw, 7.2rem) !important;
+    line-height: 5.5rem;
+  }
+  .offer-content-tag {
+    font-size: 1.24rem !important;
+    line-height: 2.8rem !important;
+  }
+  .brand-card-black-brand1,
+  .brand-card-black-brand2,
+  .brand-card-black-brand3 {
+    width: 100% !important;
+  }
+  .brand-logo {
+    /* height: 31px !important; */
+    width: 88% !important;
+    object-fit: contain !important;
+    margin-bottom: 10px !important;
+  }
+  .testimonal-title {line-height: 3.9rem !important;}
+
+  .services {
+    margin-bottom: 2rem !important;
+  }
+  .service-box {
+    padding: 20px !important;
+  }
+  .billing-section{padding-block: 0px !important;}
+  .gallery-title{padding-block: 0px !important;}
+  .billing-section-tag {line-height: 2.8rem !important;}
+
+  .gallery-reel-title {
+    line-height: 4.4rem !important;
+ 
+  }
+  .testimonal-title {
+    font-family: "inter-500";
+    font-size: clamp(2.3rem, 6vw, 4rem);
+    font-weight: 500;
+    line-height: 4.2rem;
+    text-align: center;
+    color: var(--white);
+    padding-block: 7px;
+}
+  .testimonial-card {
+    width: 82% !important;
+  }
+  .billing-section-title {
+    font-family: "pop-600";
+    font-size: clamp(2rem, 5vw, 4.5rem) !important;
+    line-height: 3.5rem !important;
+  }
+  .testimonial-card {
+    width: 72% !important;
+    height: 300px !important;
+  }
+
+  .footer .footer-logo {
+    padding-left: 7rem !important;
+    width: 100% !important;
+    max-width: 90% !important;
+
+  }
+  .offer-start {
+    font-size: clamp(2.2rem, 3.4vw, 3.2rem) !important;
+}
+#about-inner > div > a.brand-card.brand3 > div > img{width: 86% !important;}
+#about-inner > div > a.brand-card.brand3 > div{height: 28px !important;}
+.copy-write {
+  font-family: "inter-light";
+  font-size: clamp(1.3rem, 2.4vw, 2rem) !important;
+
+}
+.right-btn {
+  width: 11rem !important;
+  padding: 0.5rem !important;
+}
+.left-btn {
+  width: 11rem !important;
+  padding: 0.6rem !important;
+}
+.financing-right img {
+  width: 70% !important;
+}
+}
+
+
+/* -----------             ------
+===========   FROM 370 TO 320          ====
+-----------             ------- */
+/*  */
+
+@media (max-width:369.99px) and (min-width:320px) {
+
+  .container {
+    padding: 0px !important; /* Fine-tuned for medium-sized devices */
+    max-width: 320px !important; 
+  }
+  .hero-img{width: 90% !important;}
+  .about-details-title {
+    line-height: 3.5rem !important;
+  }
+  .hero-left-side {padding-inline-start: 30px !important;}
+  .hero-line {
+    font-size: clamp(2.7rem, 4.4vw, 5.6rem) !important;
+    line-height: 4.8rem !important;
+}
+.hero-discription{margin-top: 1rem !important;}
+.hero-btns {
+  margin-top: 2rem !important;
+}
+.detail-description{text-align: justify !important;}
+
+  .about-details-tag {
+    line-height: 3.5rem !important;
+  }
+  .detail-description {
+    line-height: 2.6rem !important;
+  }
+  .gallery-section{padding-top: 6rem !important;}
+  
+  .offer-details-title {
+    font-size: clamp(2.4rem, 8vw, 6rem) !important;
+    line-height: 4rem !important;
+  }
+  .offer-details-tag {
+    font-size: clamp(1.6rem, 4vw, 4rem) !important;
+    padding-block: 2rem !important;
+    line-height: 4rem !important;
+  }
+  h2.offer-content-heading {
+    font-size: clamp(2.4rem, 5vw, 7.2rem) !important;
+    line-height: 5.5rem;
+  }
+  .offer-content-tag {
+    font-size: 1.24rem !important;
+    line-height: 2.8rem !important;
+  }
+  .brand-card-black-brand1,
+  .brand-card-black-brand2,
+  .brand-card-black-brand3 {
+    width: 100% !important;
+  }
+  .brand-logo {
+    /* height: 31px !important; */
+    width: 88% !important;
+    object-fit: contain !important;
+    margin-bottom: 10px !important;
+  }
+  .testimonal-title {line-height: 3.9rem !important;}
+
+  .services {
+    margin-bottom: 2rem !important;
+  }
+  .service-box {
+    padding: 20px !important;
+  }
+  .billing-section{padding-block: 0px !important;}
+  .gallery-title{padding-block: 0px !important;}
+  .billing-section-tag {line-height: 2.8rem !important;}
+
+  .gallery-reel-title {
+    line-height: 4.4rem !important;
+ 
+  }
+  .testimonal-title {
+    font-family: "inter-500";
+    font-size: clamp(2.3rem, 6vw, 4rem);
+    font-weight: 500;
+    line-height: 4.2rem;
+    text-align: center;
+    color: var(--white);
+    padding-block: 7px;
+}
+  .testimonial-card {
+    width: 82% !important;
+  }
+  .billing-section-title {
+    font-family: "pop-600";
+    font-size: clamp(2rem, 5vw, 4.5rem) !important;
+    line-height: 3.5rem !important;
+  }
+  .testimonial-card {
+    width: 72% !important;
+    height: 300px !important;
+  }
+
+  .footer .footer-logo {
+    padding-left: 7rem !important;
+    width: 100% !important;
+    max-width: 90% !important;
+
+  }
+  .offer-start {
+    font-size: clamp(2.2rem, 3.4vw, 3.2rem) !important;
+}
+#about-inner > div > a.brand-card.brand3 > div > img{width: 86% !important;}
+#about-inner > div > a.brand-card.brand3 > div{height: 28px !important;}
+.copy-write {
+  font-family: "inter-light";
+  font-size: clamp(1.3rem, 2.4vw, 2rem) !important;
+
+}
+.right-btn {
+  width: 11rem !important;
+  padding: 0.5rem !important;
+}
+.left-btn {
+  width: 11rem !important;
+  padding: 0.6rem !important;
+}
+.financing-right img {
+  width: 70% !important;
+}
+}
